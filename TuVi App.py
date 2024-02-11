@@ -26,15 +26,11 @@ if check:
             tam_tai_cuaban = tam_tai.pham_tam_tai(int(year_birth), year)
             hoangoc_cuaban = hoang_oc.pham_hoang_oc(int(year_birth), year)
             if kimlau_cuaban == '0' and tam_tai_cuaban == '0':
-                st.write(1)
                 st.write('Năm', str(year), 'bạn không gặp tam tai hay kim lâu, và hoang ốc của bạn là', hoangoc_cuaban)
             elif kimlau_cuaban == '0' and tam_tai_cuaban == '1':
-                st.write(2)
                 st.write('Năm', str(year), 'bạn gặp tam tai, không phạm kim lâu, và hoang ốc của bạn là', hoangoc_cuaban)
             elif kimlau_cuaban != '0' and tam_tai_cuaban == '0':
-                st.write(3)
                 st.write('Năm', str(year), 'bạn không gặp tam tai,', kimlau_cuaban, 'và hoang ốc của bạn là', hoangoc_cuaban)
             elif kimlau_cuaban != '0' and tam_tai_cuaban == '1':
-                st.write(4)
                 st.write('Năm', str(year), 'bạn gặp tam tai,', kimlau_cuaban, 'và hoang ốc của bạn là', hoangoc_cuaban)
 
