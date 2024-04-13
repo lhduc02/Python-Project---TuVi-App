@@ -1,5 +1,5 @@
 import streamlit as st
-import kimlau
+import kim_lau
 import hoang_oc
 import tam_tai
 
