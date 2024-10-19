@@ -22,7 +22,7 @@ if check:
         st.write('Bạn chưa chọn giới tính')
     else:
         for year in range(2024, 2101):
-            kimlau_cuaban = kimlau.phamKimLau(int(year_birth), year, gender)
+            kimlau_cuaban = kim_lau.phamKimLau(int(year_birth), year, gender)
             tam_tai_cuaban = tam_tai.pham_tam_tai(int(year_birth), year)
             hoangoc_cuaban = hoang_oc.pham_hoang_oc(int(year_birth), year)
             if kimlau_cuaban == '0' and tam_tai_cuaban == '0':
